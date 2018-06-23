@@ -32,7 +32,7 @@ ul {
     margin-top: 15px !important;
 }
 
-.btn-transparent {
+.btn.btn-transparent {
     background: transparent;
     border-color: #fff;
     color: #fff 
