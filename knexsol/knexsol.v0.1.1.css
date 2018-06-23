@@ -3,7 +3,8 @@
     
 body {
     font-family: 'Sunflower', sans-serif;
-    background: url(https://3.bp.blogspot.com/-g9pNQwzW4ZY/Wy4b-ihGaXI/AAAAAAAABa4/QBOBWit8eEgWFwhYt76YephGp3Zh2wpKACLcBGAs/s1600/laptop-1209008.jpg);
+    background: url(https://3.bp.blogspot.com/-g9pNQwzW4ZY/Wy4b-ihGaXI/AAAAAAAABa4/QBOBWit8eEgWFwhYt76YephGp3Zh2wpKACLcBGAs/s1600/laptop-1209008.jpg) no-repeat;
+    background-size: cover;
 }
 
 #exam-page {
@@ -37,7 +38,7 @@ ul {
     top: 0;
     left: 0;
     right: 0;
-    background: #007dff;
+    background: rgba(0,0,0,.5);
     height: 100px;
     z-index: 99999;
     color: #fff;
@@ -250,8 +251,7 @@ a:hover.sb-pinterest {
 */
 
 .section-3 {
-    /*background: #007DFF;
-    color: #fff;*/
+    background: #fff;
 }
 
 /*
@@ -756,18 +756,19 @@ a:hover.sb-pinterest {
 .bx-accordion .acc-unit .acc-img {
     width: 100%;
     min-height: 300px;
-    padding: 10px;
-    background: #fff;
+    /*padding: 10px;
+    background: #fff;*/
 }
 .bx-accordion .acc-unit .acc-caption {
     padding: 7px 15px;
     font-weight: normal;
     position: absolute;
     bottom: 0;
-    color: #000;
-    background: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
     width: 100%;
     left: 0;
+    font-size: 22px;
 }
 
 .bx-accordion .navigate {
@@ -848,6 +849,10 @@ a:hover.sb-pinterest {
 
     #chart-container {
         margin: 30px 0;
+    }
+
+    .bx-accordion .acc-unit .acc-caption {
+        font-size: 18px;
     }
 }
 
