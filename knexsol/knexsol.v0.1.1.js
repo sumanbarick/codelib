@@ -1,5 +1,8 @@
 $(function() {
 
+    // add data-body-page-id value to body as ID
+    $('body').attr('id', ($('[data-body-page-id]').attr('data-body-page-id') || 'none').trim());
+ 
     /***********************************************************************
     * init all bx-accordions
     ***********************************************************************/
