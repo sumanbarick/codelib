@@ -30,6 +30,14 @@ $(function() {
         //since the navigate icons are by default hidden by css
         //unhide the right one
         $(this).find('.navigate.right').show();
+
+
+        //if on home page why-choose-us accordion, then do special height adjustments
+        if($(this).hasClass('why-choose-us')) {
+            if(maxHt > 240) {
+                $('#home-page .flatten-ul').css('max-height', (maxHt-60) + 'px');
+            }
+        }
     });
 
     //accordion navigattion arrows clicked
