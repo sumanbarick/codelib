@@ -21,6 +21,11 @@ $(function() {
         if ($(document).scrollTop() >= 100) { $('body').addClass('header-collapse'); }
         else { $('body').removeClass('header-collapse'); }
     });
+
+    //if Quick Exam Page, prepare it
+    if($('#qe-exam-partial').length > 0) {
+        prepareQuickExamPage();
+    }
     ///////////////// END OF Initiation ///////////////////////
  
     /***********************************************************************
@@ -102,11 +107,6 @@ $(function() {
             bxAccordion.find('.navigate.right').hide();
         }
     });
-
-    //if Quick Exam Page, prepare it
-    if($('#qe-exam-partial').length > 0) {
-        prepareQuickExamPage();
-    }
     //////////////// END OF bx-accordion ///////////////////////////////////
 
 
@@ -353,6 +353,8 @@ $(function() {
             kn.examData = {
                 "totalTime": HMSToSec(qeUrlData.time)
             };
+
+            initiateExamPage();
         }
     }
     //////////////// END OF QUICK EXAM PAGE CODE /////////////////////////
