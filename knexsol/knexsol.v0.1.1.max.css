@@ -95,6 +95,7 @@ ul {
     height: 100px;
     z-index: 99999;
     color: #fff;
+    transition: all .4s ease-out;
     /*box-shadow: inset 0px -4px 4px 0px #1a348a;*/
 }
 
@@ -110,6 +111,7 @@ ul {
 
 .header-collapse .knexsol-header {
     height: 50px;
+    background: #000;
 }
 
 .header-collapse .knexsol-header .logo-ball-img {
