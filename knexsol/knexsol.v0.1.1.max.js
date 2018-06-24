@@ -392,6 +392,7 @@ $(function() {
             duration = kn.examData.totalTime;
 
             $('.exam-duration').text(formatHMS(duration));
+            $('.no-of-qstns').text(formatHMS(noOfQstn));
         }
 
         function createQPaper () {
