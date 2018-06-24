@@ -457,6 +457,9 @@ a:hover.sb-pinterest {
 #contact-page .contacts {
     list-style: none;
     padding: 0;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 #contact-page .contacts li {
     padding: 20px 30px;
