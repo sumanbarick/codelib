@@ -550,9 +550,8 @@ $(function() {
 
         function startExam () {
             //show only page-exampaper
-            $('.page').hide();
-            $('.knexsol-header').hide();
-            $('.post-share-buttons').hide();
+            $('.page, .knexsol-header, .post-share-buttons, .comments, #comments').hide();
+
             $('.page-exampaper').show();
 
             $('#countdown-clock').text(formatHMS(duration));
@@ -638,6 +637,8 @@ $(function() {
             //$('.exam-top-panel .home-icon').show();
 
             drawPi(result);
+
+            $('.comments, #comments').show();
             
             $(window, document).scrollTop(0);
         }
