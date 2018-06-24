@@ -399,7 +399,8 @@ a:hover.sb-pinterest {
 .qa-panel .panel-heading .panel-title pre {
     background-color: #fff;
     border: none;
-    border-radius: 0
+    border-radius: 0;
+    overflow: auto;
 }
 
 .qa-panel .panel-heading .panel-title.question {
