@@ -22,6 +22,10 @@ ul {
     padding: 0;
 }
 
+#comments,
+.comments {
+    margin-top: 100px;
+}
 /*
 *  Hide Things
 */
@@ -547,10 +551,10 @@ a:hover.sb-pinterest {
 * Page specific hidden elements
 */
 .post-footer {
-    margin-top: 0;
+    /*margin-top: 0;
     position: fixed;
     bottom: 20px;
-    right: 10px;
+    right: 10px;*/
 }
 .post-title {
     text-align: center;
