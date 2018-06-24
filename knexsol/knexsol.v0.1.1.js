@@ -2,6 +2,13 @@ $(function() {
 
     // add data-body-page-id value to body as ID
     $('body').attr('id', ($('[data-body-page-id]').attr('data-body-page-id') || 'none').trim());
+    
+    
+    //header colapse on scroll
+    $(document).on('scroll', function(){
+        if ($(document).scrollTop() >= 100) { $('body').addClass('header-collapse'); }
+        else { $('body').removeClass('header-collapse'); }
+    });
  
     /***********************************************************************
     * init all bx-accordions
