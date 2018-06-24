@@ -18,6 +18,10 @@ ul {
     list-style: none;
 }
 
+.widget .post-body ul {
+    padding: 0;
+}
+
 /*
 *  Hide Things
 */
