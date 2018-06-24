@@ -260,7 +260,12 @@ a:hover.sb-pinterest {
 
 #home-page .blog-feeds,
 #home-page #blog-pager,
-#home-page .post-title {
+#home-page .post-title,
+#contact-page .blog-feeds,
+#contact-page #blog-pager,
+#contact-page .post-title,
+#exam-page .blog-feeds,
+#exam-page #blog-pager {
     display: none !important;
 }
 
@@ -446,16 +451,30 @@ a:hover.sb-pinterest {
 /********************** END OF HOME PAGE STYLES ************************/
 
 
+/*********************************************************
+* START OF CONTACT PAGE STYLES 
+*********************************************************/
+#contact-page .contacts {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#contact-page .contacts li {
+    padding: 20px 30px;
+}
+#contact-page .contacts li a {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 22px;
+}
+/************* END OF CONTACT PAGE STYLES *****************/
+
 /***********************************************************************
 * START OF EXAM PAGE STYLES
 ***********************************************************************/
 /*
 * Page specific hidden elements
 */
-#exam-page .blog-feeds,
-#exam-page #blog-pager {
-    display: none !important;
-}
 .post-footer {
     margin-top: 0;
     position: fixed;
