@@ -336,8 +336,12 @@ a:hover.sb-pinterest {
 #contact-page .blog-feeds,
 #contact-page #blog-pager,
 #contact-page .post-title,
+#x-exam-list-page .blog-feeds,
+#x-exam-list-page #blog-pager,
+#x-exam-list-page .post-title,
 #exam-page .blog-feeds,
-#exam-page #blog-pager {
+#exam-page #blog-pager,
+#exam-page .post-title {
     display: none !important;
 }
 
