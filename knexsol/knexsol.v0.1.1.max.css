@@ -31,7 +31,12 @@ ul {
 .margin-top-15 {
     margin-top: 15px !important;
 }
-
+.margin-top-20 {
+    margin-top: 20px;
+}
+.margin-top-30 {
+    margin-top: 20px;
+}
 .btn.btn-transparent {
     background: transparent;
     border-color: #fff;
@@ -463,17 +468,8 @@ a:hover.sb-pinterest {
 #exam-page {
     margin-top: 0;
 }
-.post-body {
+#exam-page .post-body {
     margin-top: 0;
-}
-.margin-top-15 {
-    margin-top: 15px;
-}
-.margin-top-20 {
-    margin-top: 20px;
-}
-.margin-top-30 {
-    margin-top: 20px;
 }
 .fitb-input {
     width: 120px;
