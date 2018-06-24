@@ -104,15 +104,15 @@ ul {
 }
 
 .knexsol-header .logo-ball-img,
-.collapse-header .knexsol-header .logo-img {
+.header-collapse .knexsol-header .logo-img {
     display: none;
 }
 
-.collapse-header .knexsol-header {
+.header-collapse .knexsol-header {
     height: 50px;
 }
 
-.collapse-header .knexsol-header .logo-ball-img {
+.header-collapse .knexsol-header .logo-ball-img {
     display: inline-block;
 }
 
@@ -245,7 +245,7 @@ a:hover.sb-pinterest {
     margin-top: 70px;
 }
 
-.collapse-header .post-body {
+.header-collapse .post-body {
     margin-top: 20px;
 }
 
