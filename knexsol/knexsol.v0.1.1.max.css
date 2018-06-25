@@ -214,9 +214,13 @@ ul {
 }
 .mini-card .icon {
     font-size: 50px;
+    color: #fff !important;
+    text-decoration: none !important;
 }
 .mini-card .text-ico {
     font-size: 40px;
+    color: #fff !important;
+    text-decoration: none !important;
 }
 
 /***** COMMON UTILITY CLASSES ENDS HERE *****/
