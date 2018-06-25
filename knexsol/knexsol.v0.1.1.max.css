@@ -59,8 +59,9 @@ ul {
 }
 .coming-soon-tag {
     position: absolute;
-    top: 81px;
-    left: -15px;
+    top: 85px;
+    left: -22px;
+    font-size: 15px;
     background: rgb(255, 255, 0);
     background: rgba(255, 255, 0, 0.7);
     color: #000;
