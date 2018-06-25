@@ -22,13 +22,6 @@ ul {
     padding: 0;
 }
 
-.widget .post-body li,
-.widget li, 
-.BlogArchive #ArchiveList ul.flat li {
-    padding-top: auto;
-    padding: auto;
-}
-
 #comments,
 .comments {
     margin-top: 100px;
@@ -164,7 +157,7 @@ ul {
     height: 150px;
     text-align: center;
     cursor: pointer;
-    padding-top: 40px;
+    padding-top: 40px !important;
     transition: all .2s ease-out;
 }
 .mini-card:hover .inner-container {
