@@ -404,7 +404,7 @@ $(function() {
             noOfQstn = kn.qList.list.length;
             duration = kn.examData.totalTime;            
 
-            $('.exam-name').text(formatHMS(kn.examData.examName));
+            $('.exam-name').text(kn.examData.examName);
             $('.exam-duration').text(formatHMS(duration));
             $('.no-of-qstns').text(formatHMS(noOfQstn));
         }
