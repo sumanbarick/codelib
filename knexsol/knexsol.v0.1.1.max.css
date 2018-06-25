@@ -227,6 +227,7 @@ ul {
     list-style: none;
     bottom: 1px;
     right: 15px;
+    margin-bottom: 0;
 }        
 
 .knexsol-header .top-menu li.level-1 {
