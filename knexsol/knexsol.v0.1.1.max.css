@@ -79,6 +79,30 @@ ul {
     border-color: #ffff13;
     color: #000; 
 }
+.text-ico {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+}
+.text-ico-c::after {
+    content: "C"
+}
+.text-ico-cpp::after {
+    content: "C++"
+}
+.text-ico-csharp::after {
+    content: "C#"
+}
+.text-ico-v-x::after {
+    content: "V-X"
+}
+.text-ico-x-xii::after {
+    content: "X-XII"
+}
+.text-ico-ug::after {
+    content: "UG"
+}
+
 .color-combo,
 .color-combo2 {
     color: #fff;
@@ -182,17 +206,19 @@ ul {
 .mini-card .title {
     font-size: 25px;
 }
+.mini-card .text-ico + .title {
+    margin-top: -8px;
+}
 .mini-card .sub-title {
     font-size: 18px;
 }
 .mini-card .icon {
     font-size: 50px;
 }
-.mini-card .text-icon {
+.mini-card .text-ico {
     font-size: 40px;
-    font-style: normal;
-    font-weight: bold;
 }
+
 /***** COMMON UTILITY CLASSES ENDS HERE *****/
 
 .knexsol-header {
@@ -1016,7 +1042,7 @@ a:hover.sb-pinterest {
     .mini-card .icon {
         font-size: 45px;
     }
-    .mini-card .text-icon {
+    .mini-card .text-ico {
         font-size: 35px;
     }
 }
