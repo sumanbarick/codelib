@@ -363,6 +363,7 @@ $(function() {
             qeUrlData.question = parseInt(qeUrlData.question);
             kn.qList.list = randomizeArr(kn.qList.list).slice(0, qeUrlData.question);
             kn.examData = {
+                "examName": qeUrlData.name,
                 "totalTime": HMSToSec(qeUrlData.time)
             };
 
@@ -401,8 +402,9 @@ $(function() {
 
         function initVars () {
             noOfQstn = kn.qList.list.length;
-            duration = kn.examData.totalTime;
+            duration = kn.examData.totalTime;            
 
+            $('.exam-name').text(formatHMS(kn.examData.examName));
             $('.exam-duration').text(formatHMS(duration));
             $('.no-of-qstns').text(formatHMS(noOfQstn));
         }
