@@ -411,11 +411,11 @@ $(function() {
 
         function initVars () {
             noOfQstn = kn.qList.list.length;
-            duration = kn.examData.totalTime;            
+            duration = kn.examData.totalTime;
 
             $('.exam-name').text(kn.examData.examName);
             $('.exam-duration').text(formatHMS(duration));
-            $('.no-of-qstns').text(formatHMS(noOfQstn));
+            $('.no-of-qstns').text(noOfQstn);
         }
 
         function createQPaper () {
