@@ -6,6 +6,7 @@ body {
     background: url(https://3.bp.blogspot.com/-g9pNQwzW4ZY/Wy4b-ihGaXI/AAAAAAAABa4/QBOBWit8eEgWFwhYt76YephGp3Zh2wpKACLcBGAs/s1600/laptop-1209008.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 #exam-page {
@@ -371,6 +372,10 @@ a:hover.sb-pinterest {
     max-height: 300px;
     overflow: auto;
     list-style: none;
+}
+
+#home-page .mini-card .title {
+    font-size: 16px;
 }
 
 #home-page .bx-accordion .acc-unit {
