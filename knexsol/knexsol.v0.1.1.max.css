@@ -22,6 +22,12 @@ ul {
     padding: 0;
 }
 
+.widget .post-body li,
+.widget li, 
+.BlogArchive #ArchiveList ul.flat li {
+    padding: auto;
+}
+
 #comments,
 .comments {
     margin-top: 100px;
