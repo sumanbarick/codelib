@@ -123,16 +123,28 @@ $(function() {
         //now create element for every object in that array
         objArr.map(function(obj){
             newEl = el.clone();
+
+            //resolve all bx-bind
             newEl.find('[bx-bind]').each(function(){
                 childEl = $(this);
                 bindVar = childEl.attr('bx-bind');
                 childEl.html(obj[bindVar]);
             });
 
+            //resolve all bx-class
             newEl.find('[bx-class]').each(function(){
                 childEl = $(this);
                 bindVar = childEl.attr('bx-class');
                 childEl.addClass(obj[bindVar]);
+            });
+
+            //resolve all bx-href
+            newEl.find('[bx-href]').each(function(){
+                childEl = $(this);
+                bindVar = childEl.attr('bx-href');
+                if (obj[bindVar]) {
+                    childEl.attr('href', obj[bindVar]);
+                }
             });
 
             //newEl.after(el);
