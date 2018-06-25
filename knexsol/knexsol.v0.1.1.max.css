@@ -46,6 +46,15 @@ ul {
 .margin-top-30 {
     margin-top: 20px;
 }
+.anchor-cover {
+    display: block;
+    height: 100%;
+    color: #fff;
+}
+.anchor-cover:hover {
+    color: #fff;
+    text-decoration: none;
+}
 .btn.btn-transparent {
     background: transparent;
     border-color: #fff;
@@ -148,13 +157,25 @@ ul {
     height: 150px;
     text-align: center;
     cursor: pointer;
+    padding-top: 40px;
+    transition: all .2s ease-out;
+}
+.mini-card:hover .inner-container {
+    transform: scale(1.1, 1.1);
 }
 .mini-card .title {
     font-size: 25px;
-    margin-top: 30px;
 }
 .mini-card .sub-title {
     font-size: 18px;
+}
+.mini-card .icon {
+    font-size: 50px;
+}
+.mini-card .text-icon {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bold;
 }
 /***** COMMON UTILITY CLASSES ENDS HERE *****/
 
@@ -352,20 +373,6 @@ a:hover.sb-pinterest {
     list-style: none;
 }
 
-#home-page .flatten-ul li {
-    height: 150px;
-    text-align: center;
-    padding-top: 40px;
-}
-
-#home-page .flatten-ul li .icon {
-    font-size: 50px;
-}
-#home-page .flatten-ul li .text-icon {
-    font-size: 40px;
-    font-style: normal;
-    font-weight: bold;
-}
 #home-page .bx-accordion .acc-unit {
     opacity: 0.9;
 }
@@ -982,10 +989,10 @@ a:hover.sb-pinterest {
 * START OF MEDIA QUERIES
 ***********************************************************/
 @media (max-width: 1200px) {
-    #home-page .flatten-ul li .icon {
+    .mini-card .icon {
         font-size: 45px;
     }
-    #home-page .flatten-ul li .text-icon {
+    .mini-card .text-icon {
         font-size: 35px;
     }
 }
