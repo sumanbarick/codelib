@@ -16,6 +16,7 @@ body {
 ul {
     padding: 0;
     margin: 0;
+    margin-bottom: 0;
     list-style: none;
 }
 
@@ -225,7 +226,7 @@ ul {
     position: absolute;
     list-style: none;
     bottom: 1px;
-    right: 0;
+    right: 15px;
 }        
 
 .knexsol-header .top-menu li.level-1 {
@@ -358,6 +359,9 @@ a:hover.sb-pinterest {
 #contact-page .blog-feeds,
 #contact-page #blog-pager,
 #contact-page .post-title,
+#exam-gallery-page .blog-feeds,
+#exam-gallery-page #blog-pager,
+#exam-gallery-page .post-title,
 #x-exam-list-page .blog-feeds,
 #x-exam-list-page #blog-pager,
 #x-exam-list-page .post-title,
