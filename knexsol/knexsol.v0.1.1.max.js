@@ -147,6 +147,15 @@ $(function() {
                 }
             });
 
+            //resolve all bx-hide
+            newEl.find('[bx-hide]').each(function(){
+                childEl = $(this);
+                bindVar = childEl.attr('bx-hide');
+                if (obj[bindVar]) {
+                    childEl.hide();
+                }
+            });
+
             //newEl.after(el);
             tempContainer.append(newEl);
         });
