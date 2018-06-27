@@ -1072,13 +1072,13 @@ a:hover.sb-pinterest {
         display: block;
         bottom: auto;
         top: 100px;
-        background: #007dff;
+        background: #000;
         width: 100%;
         text-align: center;
-        padding: 5px;
         position: fixed;
         left: 0;
         right: 0;
+        transition: all .4s ease-out;
     }
     
     .header-collapse .knexsol-header .top-menu.visible {
@@ -1089,9 +1089,15 @@ a:hover.sb-pinterest {
         display: block;
         float: none;
     }
+    
+    .knexsol-header .top-menu li.level-1 a {
+        border-bottom: none;
+        border-radius: 0;
+        border-left: 5px solid #fff;
+    }
 
     .knexsol-header .top-menu li.level-1.active a {
-        border-radius: 0;
+        border-left: 5px solid #ff0;
     }
     .page-examcover {
         margin-bottom: 20px;
