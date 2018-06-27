@@ -244,7 +244,7 @@ ul {
 }
 
 .knexsol-header .logo-ball-img,
-.logo-img {
+.header-collapse .knexsol-header .logo-img {
     display: none;
 }
 
