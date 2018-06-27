@@ -1076,6 +1076,13 @@ a:hover.sb-pinterest {
         width: 100%;
         text-align: center;
         padding: 5px;
+        position: fixed;
+        left: 0;
+        right: 0;
+    }
+    
+    .header-collapse .knexsol-header .top-menu.visible {
+        top: 50px;
     }
 
     .knexsol-header .top-menu li.level-1 {
