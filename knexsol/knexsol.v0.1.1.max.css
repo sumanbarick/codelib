@@ -244,13 +244,14 @@ ul {
 }
 
 .knexsol-header .logo-ball-img,
-.header-collapse .knexsol-header .logo-img {
+.logo-img {
     display: none;
 }
 
 .header-collapse .knexsol-header {
     height: 50px;
     background: #000;
+    background: rgba(0,0,0,.8);
 }
 
 .header-collapse .knexsol-header .logo-ball-img {
@@ -1073,6 +1074,7 @@ a:hover.sb-pinterest {
         bottom: auto;
         top: 100px;
         background: #000;
+        background: rgba(0,0,0,.8);
         width: 100%;
         text-align: center;
         position: fixed;
