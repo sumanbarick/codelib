@@ -1066,21 +1066,23 @@ a:hover.sb-pinterest {
     }
 
     .knexsol-header .top-menu {
-        display: none;
-    }
-
-    .knexsol-header .top-menu.visible {
         display: block;
-        bottom: auto;
+        position: fixed;
+        left: 100%;
+        right: 0;
         top: 100px;
+        bottom: auto;
         background: #000;
         background: rgba(0,0,0,.8);
         width: 100%;
         text-align: center;
-        position: fixed;
-        left: 0;
-        right: 0;
+        white-space: nowrap;
+        text-overflow: ellipsis;
         transition: all .4s ease-out;
+    }
+
+    .knexsol-header .top-menu.visible {
+        left: 0;     
     }
     
     .header-collapse .knexsol-header .top-menu.visible {
