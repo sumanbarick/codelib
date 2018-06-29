@@ -369,7 +369,7 @@ $(function() {
             //if the page is directly hit, then show the atomic
             // i.e. 5 qstns and 7 min
             qeUrlData = {
-                name: "Quick Exam",
+                name: "",
                 question: 5,
                 time: "00:07:00"
             };
@@ -421,7 +421,10 @@ $(function() {
             noOfQstn = kn.qList.list.length;
             duration = kn.examData.totalTime;
 
-            $('.exam-name').text(kn.examData.examName);
+            if (kn.examData.examName) {
+                $('.exam-name').text(kn.examData.examName);
+            }
+            
             $('.exam-duration').text(formatHMS(duration));
             $('.no-of-qstns').text(noOfQstn);
         }
