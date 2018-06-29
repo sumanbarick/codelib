@@ -363,21 +363,29 @@ $(function() {
     function prepareQuickExamPage () {
         var qeUrlData = getDecodedUrlParamObj();
         if (!qeUrlData || !qeUrlData.name || !qeUrlData.question || !qeUrlData.time) {
-            alert('Data Inadequate... ' + JSON.stringify(qeUrlData));
+            //alert('Data Inadequate... ' + JSON.stringify(qeUrlData));
             //window.history.back();
-        }
-        else {
-            // get desired no of question
-            // get rid off the rest
-            qeUrlData.question = parseInt(qeUrlData.question);
-            kn.qList.list = randomizeArr(kn.qList.list).slice(0, qeUrlData.question);
-            kn.examData = {
-                "examName": qeUrlData.name,
-                "totalTime": HMSToSec(qeUrlData.time)
+
+            //if the page is directly hit, then show the atomic
+            // i.e. 5 qstns and 7 min
+            qeUrlData = {
+                name: "Quick Exam",
+                question: 5,
+                time: "00:07:00"
             };
 
-            initiateExamPage();
         }
+
+        // get desired no of question
+        // get rid off the rest
+        qeUrlData.question = parseInt(qeUrlData.question);
+        kn.qList.list = randomizeArr(kn.qList.list).slice(0, qeUrlData.question);
+        kn.examData = {
+            "examName": qeUrlData.name,
+            "totalTime": HMSToSec(qeUrlData.time)
+        };
+        
+        initiateExamPage();
     }
     //////////////// END OF QUICK EXAM PAGE CODE /////////////////////////
 
