@@ -1117,6 +1117,14 @@ a:hover.sb-pinterest {
         margin-right: -15px;
         border-radius: 0;
     }
+
+    .knexsol-blog {
+        padding: 30px 20px;
+    }
+
+    .knexsol-blog .banner-container {
+        margin: -30px -20px 30px -20px;
+    }
 }
 
 
