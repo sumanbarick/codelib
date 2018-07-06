@@ -918,8 +918,9 @@ a:hover.sb-pinterest {
 * KNEXSOL BLOG POST STYLE START
 ******************************************************************/
 .post-title.entry-title {
-    margin-top: 100px !important;
-    color: #fff900;
+    margin-top: 70px !important;
+    color: #91eeff;
+    background: #007dff;
     font-size: 35px;
     font-weight: bold;
     padding: 10px 15px;
