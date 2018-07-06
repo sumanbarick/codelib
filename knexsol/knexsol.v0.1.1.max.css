@@ -1065,7 +1065,7 @@ a:hover.sb-pinterest {
         left: 0;     
     }
     
-    .header-collapse .knexsol-header .top-menu.visible {
+    .header-collapse .knexsol-header .top-menu {
         top: 50px;
     }
 
