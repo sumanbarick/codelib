@@ -387,10 +387,13 @@ a:hover.sb-pinterest {
     font-size: 16px;
     /*margin-top: 70px;*/
 }
-
-.header-collapse .post-body {
-    /*margin-top: 20px;*/
+.clearhead-margin {
+    margin-top: 70px;
 }
+.header-collapse .clearhead-margin {
+    margin-top: 20px;
+}
+
 
 /*********************************************************
 * START OF HOME PAGE STYLES 
@@ -461,44 +464,14 @@ a:hover.sb-pinterest {
     margin: 0 auto;
 }
 
-/*
-.header-title .color-diminisher-top {
-    background: linear-gradient(to bottom, white, orangered);
-}
-
-.header-title .color-diminisher-bottom {
-    background: linear-gradient(to bottom, orangered, white);
-}
-*/
-
 .section-2 {
     /*background: #007DFF;
     color: #fff;*/
 }
 
-/*
-.section-2 .color-diminisher-top {
-    background: linear-gradient(to bottom, white, blue);
-}
-
-.section-2 .color-diminisher-bottom {
-    background: linear-gradient(to bottom, blue, white);
-}
-*/
-
 .section-3 {
     background: #fff;
 }
-
-/*
-.section-3 .color-diminisher-top {
-    background: linear-gradient(to bottom, white, forestgreen);
-}
-
-.section-3 .color-diminisher-bottom {
-    background: linear-gradient(to bottom, forestgreen, white);
-}
-*/
 
 .header2 {
     font-size: 25px;
@@ -906,55 +879,6 @@ a:hover.sb-pinterest {
     right: 3px;
     padding: 0 10px;
 }
-
-/*.exam-top-panel .home-icon {
-    position: absolute;
-    right: 155px;
-    color: #007dff;
-    font-size: 30px;
-    padding: 10px;
-    display: none;
-    cursor: pointer;
-}*/
-
-/*.popupbox-modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(255, 255, 255, 0.7);
-    text-align: center;
-    display: none;
-    z-index: 9999;
-}
-
-.popupbox-modal .popupbox {
-    width: 400px;
-    background: #fff;
-    border: 5px double #f00;
-    border-radius: 9px;
-    padding: 0 15px 15px 15px;
-    overflow: auto;
-    display: inline-block;
-    margin: 150px;
-    position: relative;
-}
-
-.popupbox-modal .popupbox .header {
-    font-size: 20px;
-    padding: 7px;
-    display: block;
-    text-align: center;
-}
-
-.popupbox-modal .popupbox .close {
-    position: absolute;
-    font-size: 25px;
-    top: 0;
-    right: 0;
-    padding: 7px 10px;
-}*/
 
 #result-table {
     width: 100%;
