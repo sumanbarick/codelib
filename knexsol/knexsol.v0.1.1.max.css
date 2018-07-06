@@ -1118,7 +1118,8 @@ a:hover.sb-pinterest {
         border-radius: 0;
     }
 
-    .knexsol-blog {
+    .knexsol-blog,
+    .knexsol-blog, .container-fluid.knexsol-blog {
         padding: 30px 20px;
     }
 
