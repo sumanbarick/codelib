@@ -34,7 +34,8 @@ ul {
 *  Hide Things
 */
 #footer-1,
-#HTML1 {
+#HTML1,
+#HTML2 {
     display: none !important;
 }
 
@@ -931,6 +932,7 @@ a:hover.sb-pinterest {
     padding: 30px 50px;
 }
 
+.knexsol-blog author,
 .knexsol-blog quote,
 .knexsol-blog quote-text,
 .knexsol-blog quote-source {
@@ -962,6 +964,20 @@ a:hover.sb-pinterest {
 .knexsol-blog .banner-container .banner {
     max-height: 500px;
     width: 100%;
+}
+
+.knexsol-blog author {
+    margin: 50px 0;
+    border: 1px solid #dcb0b0;
+    min-height: 110px;
+    padding: 5px;
+    box-shadow: -2px -2px 9px 0px #5b5d53;
+}
+
+.knexsol-blog author img {
+    margin: 0 15px 0 0;
+    max-height: 100px;
+    float: left;
 }
 
 /*************** END OF KNEXSOL BLOG POST STYLE *************************/
