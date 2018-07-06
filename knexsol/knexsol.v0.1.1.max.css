@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Sunflower:300");
+@import url("https://fonts.googleapis.com/css?family=Sunflower:300") !important;
 
     
 body {
-    font-family: 'Sunflower', sans-serif !important;
+    font-family: 'Sunflower', sans-serif;
     background: url(https://3.bp.blogspot.com/-g9pNQwzW4ZY/Wy4b-ihGaXI/AAAAAAAABa4/QBOBWit8eEgWFwhYt76YephGp3Zh2wpKACLcBGAs/s1600/laptop-1209008.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -921,7 +921,8 @@ a:hover.sb-pinterest {
     padding: 10px 15px;
     text-shadow: black 0px 6px 9px;
 }
-.knexsol-blog {
+.knexsol-blog,
+.container-fluid.knexsol-blog {
     max-width: 1200px;
     font-size: 16px;
     background: rgb(255, 255, 255);
