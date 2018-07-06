@@ -951,6 +951,14 @@ a:hover.sb-pinterest {
 .knexsol-blog .level1-list > li {
     margin: 50px 0;
 }
+
+.knexsol-blog .banner {
+    margin-top: -25px;
+    max-height: 500px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
 /*************** END OF KNEXSOL BLOG POST STYLE *************************/
 
 
