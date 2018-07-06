@@ -985,6 +985,51 @@ a:hover.sb-pinterest {
 /*********** START OF EXAM PAGE STYLES ****************************/
 
 
+
+/******************************************************************
+* KNEXSOL BLOG POST STYLE START
+******************************************************************/
+.post-title.entry-title {
+    margin-top: 100px !important;
+    color: #fff900;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-shadow: black 0px 6px 9px;
+}
+.knexsol-blog {
+    max-width: 1200px;
+    font-size: 16px;
+    background: rgb(255, 255, 255);
+    padding: 30px 50px;
+}
+
+.knexsol-blog quote,
+.knexsol-blog quote-text,
+.knexsol-blog quote-source {
+    display: block;
+}
+
+.knexsol-blog quote {
+    display: block;
+    background: lightyellow;
+    margin: 15px 0;
+    padding: 10px 15px;
+    border-left: 5px solid red;
+    font-size: 18px;
+}
+
+.knexsol-blog quote-source {
+    text-align: right;
+    font-weight: bold;
+}
+
+.knexsol-blog .level1-list > li {
+    margin: 50px 0;
+}
+/*************** END OF KNEXSOL BLOG POST STYLE *************************/
+
+
 /***********************************************
 * BX-ACCORDION STARTS HERE
 ***********************************************/
