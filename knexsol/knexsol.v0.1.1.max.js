@@ -167,6 +167,15 @@ $(function() {
 
 
     /**********************************************************************
+    * Get and put all centralized content, get-central-content
+    **********************************************************************/
+    $('[get-central-content]').each(function(){
+        var cid = $(this).attr('get-central-content');
+        $(this).html($('#' + cid).html());
+    });
+    ///////////////// END OF get-central-content //////////////////////////
+
+    /**********************************************************************
     * List of Exam Page Codes
     **********************************************************************/
     // User selects a quick exam
