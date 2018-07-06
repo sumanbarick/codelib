@@ -385,11 +385,11 @@ a:hover.sb-pinterest {
 
 .post-body {
     font-size: 16px;
-    margin-top: 70px;
+    /*margin-top: 70px;*/
 }
 
 .header-collapse .post-body {
-    margin-top: 20px;
+    /*margin-top: 20px;*/
 }
 
 /*********************************************************
@@ -631,7 +631,7 @@ a:hover.sb-pinterest {
     margin-top: 0;
 }
 #exam-page .post-body {
-    margin-top: 0;
+    /*margin-top: 0;*/
 }
 .fitb-input {
     width: 120px;
