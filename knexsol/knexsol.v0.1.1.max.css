@@ -35,7 +35,8 @@ ul {
 */
 #footer-1,
 #HTML1,
-#HTML2 {
+#HTML2,
+#HTML3 {
     display: none !important;
 }
 
