@@ -375,12 +375,15 @@ $(function() {
             //alert('Data Inadequate... ' + JSON.stringify(qeUrlData));
             //window.history.back();
 
-            //if the page is directly hit, then show the atomic
+            //if the page is directly hit, then 
+            // IF Standalone exam, then pickup the preset time and No of Qstn
+            // Else
+            //show the atomic
             // i.e. 5 qstns and 7 min
             qeUrlData = {
                 name: "",
-                question: 5,
-                time: "00:07:00"
+                question: $('.no-of-qstns').text() || 5,
+                time: $('.exam-duration').text() || "00:07:00"
             };
 
         }
