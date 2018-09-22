@@ -634,7 +634,7 @@ a:hover.sb-pinterest {
     overflow: auto;
 }
 
-.qa-panel>.panel-heading {
+.qa-panel.panel-default>.panel-heading {
     background-color: #fff;
     border: 2px solid #ddd;
 }
