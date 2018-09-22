@@ -634,6 +634,11 @@ a:hover.sb-pinterest {
     overflow: auto;
 }
 
+.qa-panel>.panel-heading {
+    background-color: #fff;
+    border: 2px solid #ddd;
+}
+
 .qa-panel .panel-heading .panel-title.question {
     white-space: pre;
 }
