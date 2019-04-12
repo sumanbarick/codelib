@@ -803,4 +803,32 @@ $(function() {
         }
     }
     ////////////// END OF EXAM SECTION ///////////////////////////////////
+
+
+    /*******************************************************************
+    * BLOG Functions
+    *******************************************************************/
+    var tipsAndTricksHeader = 
+    `
+    <div class="section-header">
+        <i class="fas fa-lightbulb icon"></i>
+        <span>Tips and Tricks</span>
+    </div>
+    `;
+    var attentionHeader = 
+    `
+    <div class="section-header">
+        <i class="fas fa-exclamation-circle icon attn-icon"></i>
+        <span>Attention</span>
+    </div>
+    `;
+
+    
+    $('.knexsol-blog tips').each(function(){
+        $(this).prepend(tipsAndTricksHeader);
+    });
+    $('.knexsol-blog attn').each(function(){
+        $(this).prepend(attentionHeader);
+    });
+    ////////////// END OF BLOG FUNCTIONS /////////////////////////////// 
 });
