@@ -322,6 +322,11 @@ footer .footer-inner {
 .post-share-buttons {
     padding: 5px;
     float: right;
+    width: 50px;
+    position: fixed;
+    right: 3px;
+    top: 100px;
+    z-index: 99;
 }
 
 .share-button {
